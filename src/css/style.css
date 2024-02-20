@@ -1,0 +1,96 @@
+.create-ticket {
+    border: 1px solid;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tasks-list-element {
+    list-style-type: none;
+    border: 1px solid;
+    border-radius: 5px;
+    max-width: 320px;
+    text-align: center;
+    margin: 7px 0px 7px 0px;
+    padding: 3px 0px 3px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tasks-list-element-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    height: 40px;
+    margin: 2px 5px 2px 5px;
+}
+
+.add-ticket-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.add-ticket-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.add-ticket-modal input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.Btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.edit-ticket-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.edit-ticket-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.edit-ticket-modal input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}

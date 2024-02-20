@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+<div class="create-ticket">Добавить тикет</div>
+
+<div class="tasks">
+  <ul class="tasks-list">
+  </ul>
+</div>
+
+<!-- Модалка новой таски -->
+<div class="add-ticket-modal">
+  <div class="add-ticket-modal-content">
+      <input type="text" id="textInput1" placeholder="Краткое описание">
+      <input type="text" id="textInput2" placeholder="Подробное описание">
+      <button class="add-ticket-cancelBtn Btn">Отмена</button>
+      <button class="add-ticket-okBtn Btn">Ок</button>
+  </div>
+</div>
+
+<!-- Модалка редактирования таски -->
+<div class="edit-ticket-modal">
+  <div class="edit-ticket-modal-content">
+      <p>Название задачи</p>
+      <input type="text" id="editNameInput1" placeholder="Краткое описание">
+      <p>Описание задачи</p>
+      <input type="text" id="editDescriptionInput2" placeholder="Подробное описание">
+      <button class="edit-ticket-cancelBtn Btn">Отмена</button>
+      <button class="edit-ticket-okBtn Btn">Ок</button>
+  </div>
+</div>
+
+</body>
+</html>
